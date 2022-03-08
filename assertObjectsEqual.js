@@ -37,10 +37,10 @@ const assertObjectsEqual = function(actual, expected) {
 // Test Cases
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
-assertEqual(eqObjects(ab, ba),true);
+assertObjectsEqual(ab, ba);   //true
 
 const abc = { a: "1", b: "2", c: "3" };
-assertEqual(eqObjects(ab, abc),false);
+assertObjectsEqual(ab, abc);  //false
 
 const media1 = {
   game: { 
@@ -75,5 +75,5 @@ const media3 = {
   }
 };
 
-assertEqual(eqObjects(media1, media2), false);
-assertEqual(eqObjects(media1, media3), true);
+assertObjectsEqual(media1, media2); //false
+assertObjectsEqual(media1, media3); //true
