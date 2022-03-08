@@ -27,7 +27,7 @@ const bestGamesBySeries = {
   halo: "Halo Infinite",
 };
 
-assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
-assertEqual(findKeyByValue(bestGamesBySeries, "Final Fantasy IX"), "final_fantasy");
-assertEqual(findKeyByValue(bestGamesBySeries, "Cyberpunk"), undefined);
+// assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
+// assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+// assertEqual(findKeyByValue(bestGamesBySeries, "Final Fantasy IX"), "final_fantasy");
+// assertEqual(findKeyByValue(bestGamesBySeries, "Cyberpunk"), undefined);
