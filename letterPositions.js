@@ -36,5 +36,5 @@ const letterPositions = function (str) {
   return result;
 };
 
-console.log(letterPositions("hello"));
-console.log(letterPositions("lighthouse in the house"));
+// console.log(letterPositions("hello"));
+// console.log(letterPositions("lighthouse in the house"));
