@@ -37,3 +37,4 @@ const letterPositions = function (str) {
 };
 
 console.log(letterPositions("hello"));
+console.log(letterPositions("lighthouse in the house"));
