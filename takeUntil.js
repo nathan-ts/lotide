@@ -2,7 +2,7 @@ const takeUntil = function (a, c) {
   let r = [];
   for (let e of a) {
     if (!c(e)) r.push(e);
-    else return r;
+    else return r;  // can also be break;
   }
   return r;
 };
