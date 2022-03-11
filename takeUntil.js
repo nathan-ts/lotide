@@ -1,11 +1,8 @@
 const takeUntil = function (a, c) {
   let r = [];
   for (let e of a) {
-    if (!c(e)) {
-      r.push(e);
-    } else {
-      break;
-    }
+    if (!c(e)) r.push(e);
+    else return r;
   }
   return r;
 };
