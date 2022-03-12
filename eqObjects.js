@@ -120,5 +120,5 @@ const media3 = {
   }
 };
 
-assertEqual(eqObjects(media1, media2), false);
-assertEqual(eqObjects(media1, media3), true);
+// assertEqual(eqObjects(media1, media2), false);
+// assertEqual(eqObjects(media1, media3), true);
