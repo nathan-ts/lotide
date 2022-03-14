@@ -19,6 +19,3 @@ const letterPositions = function (str) {
 };
 
 module.exports = letterPositions;
-
-// console.log(letterPositions("hello"));
-// console.log(letterPositions("lighthouse in the house"));
