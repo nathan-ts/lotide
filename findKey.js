@@ -4,6 +4,8 @@ const findKey = (o, c) => {
   for (let k in o) if (c(o[k])) return k;
 };
 
+module.exports = findKey;
+
 assertEqual(findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },

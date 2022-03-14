@@ -7,6 +7,7 @@ const takeUntil = function (a, c) {
   return r;
 };
 
+module.exports = takeUntil;
 
 // Test Cases
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];

@@ -1,5 +1,5 @@
-const assertArraysEqual = require('./assertArraysEqual');
-const eqArrays = require('./eqArrays');
+// const assertArraysEqual = require('./assertArraysEqual');
+// const eqArrays = require('./eqArrays');
 
 const words = ["ground", "control", "to", "major", "tom"];
 
@@ -11,5 +11,7 @@ const map = function (a, c) {
   return r;
 };
 
-const results1 = map(words, (word) => word[0]);
-console.log(results1);
+module.exports = map;
+
+// const results1 = map(words, (word) => word[0]);
+// console.log(results1);

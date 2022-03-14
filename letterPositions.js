@@ -18,5 +18,7 @@ const letterPositions = function (str) {
   return result;
 };
 
+module.exports = letterPositions;
+
 // console.log(letterPositions("hello"));
 // console.log(letterPositions("lighthouse in the house"));

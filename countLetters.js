@@ -17,6 +17,7 @@ const countLetters = function (str) {
   return result;
 };
 
+module.exports = countLetters;
 
 // let result1 = countLetters('LHL');
 // // {L: 3, H: 1}

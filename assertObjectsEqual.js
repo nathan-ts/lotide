@@ -1,21 +1,5 @@
-const eqArrays = require('./eqArrays');
+// const eqArrays = require('./eqArrays');
 const eqObjects = require('./eqObjects');
-
-const eqObjects = function(ob1, ob2) {
-  if (Object.keys(ob1).length !== Object.keys(ob2).length) {
-    return false;
-  }
-  for (let key in ob1) {
-    if (!(ob1[key] instanceof Object)) {   // if key value is primitive
-      if (ob1[key] !== ob2[key]) return false;
-    } else if (ob1[key] instanceof Array) {
-      if (!eqArrays(ob1[key],ob2[key])) return false;
-    } else {
-      if (!eqObjects(ob1[key],ob2[key])) return false;
-    }
-  }
-  return true;
-};
 
 const assertObjectsEqual = function(actual, expected) {
   const inspect = require('util').inspect; // <= add this line
@@ -26,7 +10,7 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
-
+module.exports = assertObjectsEqual;
 
 // // Test Cases
 // const ab = { a: "1", b: "2" };
