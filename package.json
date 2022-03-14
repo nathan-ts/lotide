@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@nathan-ts/lotide",
   "version": "1.0.0",
   "description": "## Implements lodash clone in JS.",
   "main": "assertArraysEqual.js",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/nathan-ts/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "nathan-ts",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nathan-ts/lotide/issues"
